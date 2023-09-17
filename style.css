@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body{
+    overflow: auto;
+}
+.bg-img{
+    background:url(img/blue_bg.png);
+    min-height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+.snd{
+    position: absolute;
+    z-index: 1;
+    bottom: -135px;
+    right: 329px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background-size: cover;
+    height: 100px;
+
+}
+.left-side{
+    display: flex;
+    align-items: center;
+}
+.left-side a{
+    text-decoration: none;
+    margin-right: 10px;
+    color:#88979e;
+    text-transform: capitalize;
+    
+    
+}
+.bg-img .f-color{
+    border-bottom: solid;
+    border-bottom-color: #6b417f;
+}
+.left-side a:hover{
+    border-bottom: solid;
+    border-bottom-color: #6b417f;
+    
+}
+
+.right-side{
+    position: relative;
+    margin-right: 30px;
+}
+.right-side h2 {
+    position: absolute;
+    top: 4px;
+    right: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: #88979e;
+    letter-spacing: 1px;
+}
+.containetr{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.containetr .left-words{
+    margin-left: 441px;
+}
+.left-words h1{
+    margin-bottom: 30px;
+    color: #88979e;
+    text-transform: capitalize;
+}
+.left-words span{
+    color: #8648a9;
+}
+.left-words p{
+    color: #88979e;
+    line-height: 25px;
+}
+.containetr .first-img{
+    position: absolute;
+    z-index: 3;
+    right: 342px;
+    top: 0;
+}
+.containetr .second-img{
+    position: absolute;
+    z-index: 2;
+    right: 150px;
+    top: 0;
+}
+.containetr .third-img{
+    position: absolute;
+    z-index: 5;
+    right: 278px;
+    bottom: 78px;
+    opacity: .9;
+}
+section {
+    margin-top: 189px;
+    margin-left: 150px;
+    width: 90%;
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+section .second-sec {
+position: absolute;
+left: 0;
+top: 0;
+color: #88979e;
+text-align: center;
+}
+section .third-sec{
+    position: absolute;
+    bottom: -203px;
+    left: 535px;
+    color: #88979e;
+    text-align: center;
+}
+section .forth-sec{
+    position: absolute;
+    color: #88979e;
+    text-align: center;
+    bottom: -443px;
+    right: 207px;
+}
+section .fifth-sec{
+    position: absolute;
+    left: -104px;
+    top: 511px;
+}
+section .fifth-sec h4{
+    position: absolute;
+    top: 123px;
+    left: 134px;
+    font-size: 15px;
+    color: #fff;
+}
+section .fifth-sec h1{
+    position: absolute;
+    top: 170px;
+    left: 134px;
+    font-size: 50px;
+    color: #fff;
+}
+.lol{
+    display: flex;
+    position: relative;
+    height: 350px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.lol div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -400px;
+}
+.arrow{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.arrow .left{
+    position: absolute;
+    right: 200px;
+    top: -50px;
+    color: #88979e;
+    
+}
+.arrow .right{
+    position: absolute;
+left: 200px;
+top: -50px;
+color: #88979e;
+}
+.lol .paragraph{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 488px;
+    align-items: center;
+    line-height: 25px;
+    color: #88979e;
+    position: relative;
+    text-transform: capitalize;
+}
+.lol .paragraph h3{
+    position: absolute;
+    bottom: 88px;
+    left: 562px;
+}
+.lol .paragraph  p{
+    margin-bottom: 528px;
+    position: absolute;
+    top: 417px;
+}
+footer{
+    background: url(img/Group\ 1131.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+    width: 98%;
+    overflow: hidden;
+    bottom: -400px;
+    right: -29px;
+}
+footer .stores{
+position: relative;
+}
+footer .play{
+    position: absolute;
+    left: 150px;
+    bottom: 1px;
+    /* width: 100px; */
+}
+footer .apple ,footer .play {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    width: 35%;
+border-radius: 8px;
+}
+.play img , .apple img{
+
+}
+footer .apple p,footer .play p{
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
+}
+footer .imgss{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+footer ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #fff;
+}
